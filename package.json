@@ -1,0 +1,19 @@
+{
+  "name": "desafio3-backend-coderhouse",
+  "version": "1.0.0",
+  "description": "Servidor web con Express",
+  "main": "app.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/app.mjs",
+    "dev": "nodemon ./src/app.mjs"
+  },
+  "author": "Alejandra Paillas",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
